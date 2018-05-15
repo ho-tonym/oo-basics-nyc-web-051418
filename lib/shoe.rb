@@ -1,6 +1,10 @@
 class Shoe
   def initialize
-    attr_accessor :new
+    def new=(shoe)
+      @shoe = shoe
+    end
+
+
   end
 
 end
